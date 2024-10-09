@@ -4,6 +4,20 @@ html{
     height: 100vh;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.topbar a:hover{
+    border-bottom: 2px solid black;
+}
+
+.works a:hover{
+    color: red;
+}
+
 #topbartest{
     position: sticky;
     top: 0;
