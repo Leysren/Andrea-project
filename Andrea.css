@@ -1,0 +1,98 @@
+html{
+    font-family: 'Public Sans';font-size: 16px;
+    font-weight: 300;
+    height: 100vh;
+}
+
+#topbartest{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+.topbar {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: 46%;
+    padding-top: 5%;
+    position: sticky;
+}
+
+hr{
+    background-color: black;
+    height: 1px;
+    margin-top: 2rem;
+    width: 97%;
+}
+
+.selected{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.arrow{
+    rotate: 35deg;
+    height: 10px;
+    margin-left: 1rem;
+}
+
+.worksgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px;
+    width: 80%;
+    margin: 2% auto;
+}
+
+.worksnumbers{
+    justify-content: start;
+    gap: 20%;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    display: flex;
+}
+.works{
+    grid-column: 1 / -1; 
+    grid-row: 2; 
+    display: flex; 
+    justify-content: start;
+    gap: 3%;   
+    align-items: center;
+}
+
+.personal{
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.footers{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    padding-bottom: 40px;
+    gap: 5rem;
+}
+
+.images{
+    height: 1000px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.testimg{
+    height: 250px;
+}
+
+.overlapping{
+    height: 200px;
+    position: absolute;
+    left: 8rem;
+    top: 800px;
+}
